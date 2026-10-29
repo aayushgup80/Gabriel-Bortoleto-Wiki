@@ -1,0 +1,16 @@
+{
+  "name": "gabriel-bortoleto-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Gabriel Bortoleto research wiki with Kiko Bot and live debate room",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
