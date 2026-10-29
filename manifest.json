@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "title": "Gabriel Bortoleto Wiki",
+  "lastReviewed": "2026-10-29",
+  "groups": [
+    {
+      "id": "overview",
+      "title": "Start Here & Identity",
+      "pages": [
+        {
+          "id": "overview",
+          "title": "Overview & Key Facts",
+          "file": "content/overview.md",
+          "summary": "Quick overview and key milestones with research caveats.",
+          "sourceType": "Official + secondary",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "biography",
+            "summary",
+            "Brazil",
+            "championship"
+          ]
+        },
+        {
+          "id": "biography",
+          "title": "Biography & Early Life",
+          "file": "content/biography.md",
+          "summary": "Origin, early life, family motorsport connections and background.",
+          "sourceType": "Official + secondary",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "Osasco",
+            "Brazil",
+            "family",
+            "early life"
+          ]
+        },
+        {
+          "id": "career-timeline",
+          "title": "Career Chronology",
+          "file": "content/career-timeline.md",
+          "summary": "Dated career timeline from karting to Formula One.",
+          "sourceType": "Official + secondary",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "timeline",
+            "history",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "junior",
+      "title": "Junior Career",
+      "pages": [
+        {
+          "id": "karting",
+          "title": "Karting (2011–2019)",
+          "file": "content/karting.md",
+          "summary": "Brazilian karting, move to Europe and international results.",
+          "sourceType": "Management + secondary",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "kart",
+            "OK-Junior",
+            "WSK",
+            "2018"
+          ]
+        },
+        {
+          "id": "f4",
+          "title": "Italian Formula 4 (2020)",
+          "file": "content/formula-4.md",
+          "summary": "Single-seater debut with Prema, wins and final placing.",
+          "sourceType": "Management + secondary",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "Prema",
+            "Mugello",
+            "Monza",
+            "F4"
+          ]
+        },
+        {
+          "id": "regional",
+          "title": "Formula Regional (2021–2022)",
+          "file": "content/formula-regional.md",
+          "summary": "European and Asian Formula Regional seasons.",
+          "sourceType": "Secondary",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "FRECA",
+            "R-ace GP",
+            "Asian"
+          ]
+        },
+        {
+          "id": "f3",
+          "title": "FIA Formula 3 (2023)",
+          "file": "content/formula-3.md",
+          "summary": "Rookie championship season with Trident and McLaren development programme.",
+          "sourceType": "FIA + secondary",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "Trident",
+            "champion",
+            "Sakhir",
+            "Melbourne",
+            "Monza",
+            "McLaren"
+          ]
+        },
+        {
+          "id": "f2",
+          "title": "FIA Formula 2 (2024)",
+          "file": "content/formula-2.md",
+          "summary": "Invicta rookie title, Spa sprint and Monza comeback.",
+          "sourceType": "Official + secondary",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "Invicta",
+            "Monza",
+            "last to first",
+            "rookie champion",
+            "Spa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f1",
+      "title": "Formula One",
+      "pages": [
+        {
+          "id": "f1-pathway",
+          "title": "F1 Entry, Teams & Contracts",
+          "file": "content/f1-pathway.md",
+          "summary": "McLaren programme, Sauber signing and Audi transition.",
+          "sourceType": "Official",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "Sauber",
+            "Audi",
+            "McLaren",
+            "contract",
+            "Hülkenberg"
+          ]
+        },
+        {
+          "id": "f1-2025",
+          "title": "F1 Season 2025",
+          "file": "content/f1-2025.md",
+          "summary": "Rookie season, results and Brazilian Grand Prix weekend.",
+          "sourceType": "Formula 1 + secondary",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "2025",
+            "rookie",
+            "points",
+            "São Paulo"
+          ]
+        },
+        {
+          "id": "f1-2026",
+          "title": "F1 Season 2026 (in progress)",
+          "file": "content/f1-2026.md",
+          "summary": "Current-season notes and verification checklist.",
+          "sourceType": "Official; ongoing",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "2026",
+            "Audi",
+            "current",
+            "race results",
+            "Baku",
+            "Austin"
+          ]
+        },
+        {
+          "id": "driving-style",
+          "title": "Driving Style & Racecraft",
+          "file": "content/driving-style.md",
+          "summary": "Results-based observations separated from analysis.",
+          "sourceType": "Analysis + cited reporting",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "racecraft",
+            "consistency",
+            "qualifying",
+            "overtaking",
+            "telemetry"
+          ]
+        },
+        {
+          "id": "notable-races",
+          "title": "Notable Races & Incidents",
+          "file": "content/notable-races.md",
+          "summary": "Key moments and incident-verification notes.",
+          "sourceType": "Official + journalism",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "Monza",
+            "crash",
+            "Baku",
+            "Austin",
+            "Spa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "title": "Statistics & Records",
+      "pages": [
+        {
+          "id": "statistics",
+          "title": "Season-by-Season Statistics",
+          "file": "content/statistics.md",
+          "summary": "Junior statistics summary and provisional 2026 entry.",
+          "sourceType": "Secondary; validate against official results",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "points",
+            "wins",
+            "poles",
+            "podiums",
+            "statistics"
+          ]
+        },
+        {
+          "id": "records",
+          "title": "Records & Milestones",
+          "file": "content/records.md",
+          "summary": "Rookie titles, Brazilian milestones and notable achievements.",
+          "sourceType": "Official + secondary",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "record",
+            "milestone",
+            "first Brazilian",
+            "rookie"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "title": "People, Media & Public Profile",
+      "pages": [
+        {
+          "id": "management-sponsors",
+          "title": "Management & Sponsorships",
+          "file": "content/management-sponsors.md",
+          "summary": "Publicly reported career management and sponsor associations.",
+          "sourceType": "Official + secondary",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "A14",
+            "Fernando Alonso",
+            "sponsors",
+            "Qualcomm",
+            "O Boticário"
+          ]
+        },
+        {
+          "id": "interviews",
+          "title": "Interviews & Media",
+          "file": "content/interviews.md",
+          "summary": "Official media hubs and a source log template.",
+          "sourceType": "Official media",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "interview",
+            "podcast",
+            "press conference",
+            "video",
+            "quotes"
+          ]
+        },
+        {
+          "id": "online-presence",
+          "title": "Social & Official Online Presence",
+          "file": "content/online-presence.md",
+          "summary": "Public profiles and official links; volatile follower counts omitted.",
+          "sourceType": "Official/public profiles",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "Instagram",
+            "X",
+            "website",
+            "social media"
+          ]
+        },
+        {
+          "id": "peer-comparisons",
+          "title": "Peer Comparisons",
+          "file": "content/peer-comparisons.md",
+          "summary": "Comparison framework for feeder-series progression.",
+          "sourceType": "Comparative analysis",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "Leclerc",
+            "Russell",
+            "Piastri",
+            "rookie champion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Research Notes & Sources",
+      "pages": [
+        {
+          "id": "sources",
+          "title": "Source Directory & Reliability",
+          "file": "content/sources.md",
+          "summary": "Primary sources, secondary references and source quality.",
+          "sourceType": "Source index",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "sources",
+            "FIA",
+            "Audi",
+            "Formula 1",
+            "citations"
+          ]
+        },
+        {
+          "id": "uncertainties",
+          "title": "Uncertainties & Fact-Checking",
+          "file": "content/uncertainties.md",
+          "summary": "Data limitations, uncertain claims and fact-checking notes.",
+          "sourceType": "Editorial notes",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "uncertain",
+            "fact check",
+            "correction",
+            "limitations"
+          ]
+        },
+        {
+          "id": "mun-briefing",
+          "title": "MUN Briefing Utility",
+          "file": "content/mun-briefing.md",
+          "summary": "How to use the dossier responsibly for conference preparation.",
+          "sourceType": "Research guide",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "MUN",
+            "briefing",
+            "speech",
+            "sources"
+          ]
+        }
+      ]
+    }
+  ]
+}
