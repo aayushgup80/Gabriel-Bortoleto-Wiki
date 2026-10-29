@@ -339,6 +339,20 @@
             "briefing",
             "speech"
           ]
+        },
+        {
+          "id": "research-directory",
+          "title": "Research Directory & Fact-Check Status",
+          "file": "content/research-directory.md",
+          "summary": "Coverage inventory and what remains to verify before relying on the wiki.",
+          "sourceType": "Editorial notes",
+          "lastVerified": "2026-10-29",
+          "keywords": [
+            "coverage",
+            "fact-check",
+            "verification",
+            "quality"
+          ]
         }
       ]
     }
