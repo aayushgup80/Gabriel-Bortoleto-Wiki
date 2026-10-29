@@ -32,11 +32,11 @@ Prioritize official FIA, Formula 1, team and championship records. Use reputable
 
 ## Kiko Bot + Live Debate
 
-This repo now includes a local Node.js backend for Kiko, powered by the Google Gemini API. The API key stays server-side.
+This repo includes a local Node.js backend for Kiko, powered by NVIDIA's OpenAI-compatible API. The API key stays server-side.
 
 1. Install Node.js 20 or newer.
 2. Copy `.env.example` to `.env`.
-3. Put your Google AI Studio key in `GEMINI_API_KEY` and set a private `KIKO_OWNER_TOKEN`.
+3. Create an API key at [NVIDIA Build](https://build.nvidia.com/settings), then put it in `NVIDIA_API_KEY`. Keep `NVIDIA_MODEL=nvidia/nemotron-3.5-bolt-e4b` and set a private `KIKO_OWNER_TOKEN`.
 4. Run `npm install`, then `npm start`.
 5. Open http://localhost:8000.
 
