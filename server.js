@@ -27,7 +27,7 @@ function readBody(req) {
 function rateLimit(req) {
   const ip=req.socket.remoteAddress||"unknown", now=Date.now(), item=rate.get(ip)||{start:now,count:0};
   if(now-item.start>60_000){item.start=now;item.count=0;}
-  item.count++;rate.set(ip,item);return item.count<=30;
+  item.count++;rate.set(ip,item);return item.count<=60;
 }
 function safeSlug(value) {
   return String(value||"").normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,64);
@@ -117,7 +117,8 @@ const server=http.createServer(async(req,res)=>{
   const url=new URL(req.url,"http://localhost");
   if(req.method==="GET"&&url.pathname==="/api/health") return send(res,200,{ok:true,configured:Boolean(process.env.GEMINI_API_KEY),model:MODEL});
   if(url.pathname.startsWith("/api/")) {
-    if(!rateLimit(req)) return send(res,429,{error:"Too many requests. Wait a minute and try again."});
+    // Rate-limit chat submissions only; health checks and wiki reads should never consume the chat quota.
+    if(req.method==="POST"&&url.pathname==="/api/chat"&&!rateLimit(req)) return send(res,429,{error:"Kiko is receiving too many messages from this connection. Wait a minute and try again."});
     try {
       if(req.method==="GET"&&url.pathname==="/api/wiki") return send(res,200,await getManifest());
       if(req.method==="POST"&&url.pathname==="/api/chat") {
