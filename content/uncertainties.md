@@ -14,7 +14,6 @@ A research dossier should show what is not yet known instead of turning search s
 ## High-priority checks
 
 ### Current 2026 F1 statistics
-
 The 2026 season is ongoing. Points, position, starts, best finish, retirements and penalties must be checked against official standings and event results on the date used.
 
 - [2026 driver standings](https://www.formula1.com/en/results/2026/drivers)
@@ -22,34 +21,27 @@ The 2026 season is ongoing. Points, position, starts, best finish, retirements a
 - [FIA event documents](https://www.fia.com/documents)
 
 ### F4 podium count
-
-The secondary career-results table and prose summaries are not fully consistent in how the 2020 Italian F4 podiums are counted. Reconcile the number against official classifications instead of silently choosing one.
+Secondary results tables and prose summaries are not fully consistent in how 2020 Italian F4 podiums are counted. Reconcile against official classifications instead of silently choosing a number.
 
 ### Historical “first” claims
-
 Bortoleto is described as the first Brazilian FIA F3 champion, and his Monza 2024 F2 comeback is reported as a last-to-first record. Preserve the exact scope of each source and check official start position and record category before repeating “first ever”.
 
 ### Driver style and private telemetry
-
-Public results can support cautious observations but not claims about detailed braking traces, tyre temperatures, internal engineering feedback or private simulator performance.
+Public results support cautious observations but not claims about braking traces, tyre temperatures, internal engineering feedback or private simulator performance.
 
 ### Sponsors
-
-A listed historical sponsor is not necessarily current. Distinguish personal sponsor, team partner, family business and junior programme; verify current status with a dated official announcement.
+A historical sponsor is not necessarily current. Distinguish personal sponsor, team partner, family business and junior programme; verify status with dated official announcements.
 
 ### Personal life
-
-Do not add rumours or private information merely because they appear in social posts or aggregator pages. Use relevant information from reputable public sources only.
+Do not add rumours or private information merely because it appears in social posts or aggregator pages.
 
 ## Common error traps
-
 - Confusing entries with starts or classified finishes.
 - Combining sprint and Grand Prix stats without saying so.
 - Treating a team partner as a personal sponsor.
 - Repeating a dated 2026 standings number as current.
-- Using a headline without reading the article or official steward decision.
+- Using headlines without reading the article or official steward decision.
 - Treating fan analysis as fact.
 
 ## Editorial status
-
-This repository is a structured research archive in progress, not yet a complete race-by-race database. Audit statistics before formal MUN use.
+This is a structured research archive in progress, not yet a complete race-by-race database. Audit statistics before formal MUN use.

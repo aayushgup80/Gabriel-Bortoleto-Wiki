@@ -9,16 +9,14 @@ related: [overview.md, career-timeline.md, sources.md, uncertainties.md]
 
 # Using this wiki for MUN preparation
 
-You mentioned MUN is coming up, so this page helps use the research responsibly in a brief or speech. Gabriel Bortoleto is a sportsperson, not a state or international organisation; whether he is relevant depends on your committee, agenda and assigned role.
+You mentioned MUN is coming up, so this page helps use research responsibly in a brief or speech. Gabriel Bortoleto is a sportsperson, not a state or international organisation; whether he is relevant depends on your committee, agenda and assigned role.
 
 ## Three levels of material
-
 1. **Biographical background:** nationality, career progression and championships.
-2. **Public-interest context:** Brazilian motorsport representation, elite athlete development, sponsorship and sports commercialisation. Broader claims need independent sources; one driver's experience does not represent all of Brazil.
+2. **Public-interest context:** Brazilian motorsport representation, athlete development, sponsorship and sports commercialisation. Broader claims need independent sources; one driver's experience does not represent all of Brazil.
 3. **Current facts:** 2026 team, results and incidents. Add an “as of” date and official link to every time-sensitive statement.
 
 ## Quick sourced facts
-
 - Bortoleto is a Brazilian driver born in Osasco, São Paulo.
 - He won FIA Formula 3 in 2023 and FIA Formula 2 in 2024, both in his rookie seasons.
 - He joined Sauber for the 2025 F1 season and drives for Audi in 2026.
@@ -27,12 +25,9 @@ You mentioned MUN is coming up, so this page helps use the research responsibly 
 Sources: [Audi official profile](https://www.audif1.com/en/team/drivers/gabriel-bortoleto) · [Formula 1 profile](https://www.formula1.com/en/drivers/gabriel-bortoleto)
 
 ## Research etiquette
-
-- Never manufacture a quote or attribute a generic statement to Bortoleto.
+- Never manufacture a quote or attribute generic statements to Bortoleto.
 - Avoid assumptions about political positions or views on international disputes.
 - If the committee is not about sport, use the biography only if it supports an actual agenda point.
 - Cite original sources with title, publisher, date and URL rather than citing this wiki alone.
 
-## Before the conference
-
-Check the committee agenda and rules of procedure, then decide whether the driver is relevant to the topic. This dossier provides background; it does not establish an official policy position.
+Check the committee agenda and rules of procedure before deciding how this biography is relevant.

@@ -9,10 +9,9 @@ related: [driving-style.md, notable-races.md, online-presence.md]
 
 # Interviews and media
 
-This is a source directory and a framework for building a dated interview log, not a transcript collection. Attribute quotes to the speaker, exact publication/video, date and context. Summarize and link to sources rather than reproducing long passages.
+This is a source directory and a framework for building a dated interview log, not a transcript collection. Attribute quotes to the speaker, exact publication/video, date and context. Summarize and link rather than reproducing long passages.
 
 ## Official hubs
-
 - [Formula 1 — Bortoleto profile, videos and articles](https://www.formula1.com/en/drivers/gabriel-bortoleto)
 - [Audi Revolut F1 Team — driver profile](https://www.audif1.com/en/team/drivers/gabriel-bortoleto)
 - [Audi media/news hub](https://www.audif1.com/news)
@@ -21,7 +20,6 @@ This is a source directory and a framework for building a dated interview log, n
 - [FIA Formula 3](https://www.fiaformula3.com/)
 
 ## Dated interview log fields
-
 | Field | What to record |
 |---|---|
 | Date | Publication date and interview date if different |
@@ -33,7 +31,4 @@ This is a source directory and a framework for building a dated interview log, n
 | URL | Direct link to original item |
 
 ## Leads
-
-Formula 1's profile links to official interviews and video items, including coverage around Austin and Baku. Open each item to establish its publication date and wording before citing it.
-
-This file intentionally does not invent interview dates, quotes or transcripts from unverified videos.
+Formula 1's profile links to official interviews and video items, including Austin and Baku coverage. Open each item to establish publication date and wording before citing it. This file intentionally does not invent interview dates, quotes or unverified transcripts.
