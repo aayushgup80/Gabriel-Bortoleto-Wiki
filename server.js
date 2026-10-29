@@ -85,7 +85,7 @@ async function askGemini({message,mode="chat",history=[],speaker="",feed=[]}) {
     response=await fetch("https://integrate.api.nvidia.com/v1/chat/completions",{
       method:"POST",
       headers:{"Content-Type":"application/json","Authorization":"Bearer "+process.env.NVIDIA_API_KEY},
-      body:JSON.stringify({model:MODEL,messages:[{role:"system",content:system},{role:"user",content:userContent}],temperature:0.3,max_tokens:900},
+      body:JSON.stringify({model:MODEL,messages:[{role:"system",content:system},{role:"user",content:userContent}],temperature:0.3,max_tokens:900}),
       signal:AbortSignal.timeout(30000)
     });
   } catch(error) {
