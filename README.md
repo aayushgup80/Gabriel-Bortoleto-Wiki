@@ -29,3 +29,19 @@ Open http://localhost:8000/. To publish using GitHub Pages: Settings â†’ Pages â
 
 ## Source policy
 Prioritize official FIA, Formula 1, team and championship records. Use reputable reporting for interviews and context. Wikipedia is a discovery aid, not final authority. Each subgroup should identify uncertainty and use dated sources. Add content under `content/` and register it in `manifest.json`. Summarize and link articles rather than reproducing long copyrighted text.
+
+## Kiko Bot + Live Debate
+
+This repo now includes a local Node.js backend for Kiko, powered by the Google Gemini API. The API key stays server-side.
+
+1. Install Node.js 20 or newer.
+2. Copy `.env.example` to `.env`.
+3. Put your Google AI Studio key in `GEMINI_API_KEY` and set a private `KIKO_OWNER_TOKEN`.
+4. Run `npm install`, then `npm start`.
+5. Open http://localhost:8000.
+
+- The **Open Kiko Bot** button opens the assistant in a new tab.
+- Kiko can answer from the wiki, search its Markdown pages, and create a new local wiki article when you supply the owner token.
+- The Live Debate room opens in a separate tab. Type or dictate each speaker's statement; the feed stores entries in that browser's local storage and Kiko analyses the argument.
+- This backend writes wiki changes to the local checkout. GitHub Pages is static and cannot run Node routes or persist writes. To publish new articles, commit and push the changed `content/` file and `manifest.json`. For an online AI backend, deploy a server-capable host and set its environment variables there.
+- Never commit `.env` or share your API key. The committed `.env.example` is a blank template.
