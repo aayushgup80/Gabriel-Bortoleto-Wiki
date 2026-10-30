@@ -69,9 +69,9 @@ function extractText(data) {
   }
   if(pieces.length) return pieces.join("\n").trim();
   for(const item of data?.output||[]) if(item?.type==="message") for(const c of item.content||[]) if(c?.type==="output_text"&&c.text) pieces.push(c.text);
-  return pieces.join("\n").trim() || "Kiko couldn't read a text response from Gemini. Please try again.";
+  return pieces.join("\n").trim() || "Kiko couldn't read a text response from NVIDIA. Please try again.";
 }
-async function askGemini({message,mode="chat",history=[],speaker="",feed=[]}) {
+async function askNvidia({message,mode="chat",history=[],speaker="",feed=[]}) {
   const plain=String(message||"").trim().toLowerCase().replace(/[!.,?]+$/g,"");
   if(mode==="chat" && /^(hi|hello|hey|heya|yo|sup|good morning|good afternoon|good evening|howdy)$/.test(plain)) return "Hey! 👋 I’m Kiko, your Gabriel Bortoleto Wiki assistant. Ask me about his racing career, results, teams, or anything covered by the wiki.";
   if(!process.env.NVIDIA_API_KEY) throw new Error("Missing NVIDIA_API_KEY. Copy .env.example to .env and add your NVIDIA API key from https://build.nvidia.com/settings.");
@@ -138,7 +138,7 @@ const server=http.createServer(async(req,res)=>{
       if(req.method==="POST"&&url.pathname==="/api/chat") {
         const body=await readBody(req);
         if(!String(body.message||"").trim()) return send(res,400,{error:"Write a message first."});
-        const answer=await askGemini(body);
+        const answer=await askNvidia(body);
         return send(res,200,{answer});
       }
       if(req.method==="POST"&&url.pathname==="/api/wiki/add") {
